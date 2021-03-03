@@ -1,14 +1,12 @@
 import firebase from 'firebase';	
 
 const firebaseConfig = {	
-    apiKey: "API_KEY",
-    authDomain: "PROJECT_ID.firebaseapp.com",
-    databaseURL: "https://PROJECT_ID.firebaseio.com",
-    projectId: "PROJECT_ID",
-    storageBucket: "PROJECT_ID.appspot.com",
-    messagingSenderId: "SENDER_ID",
-    appId: "APP_ID",
-    measurementId: "G-MEASUREMENT_ID",
+    apiKey: "AIzaSyAnuWNMGgwbK0h_AszUMQ8XDjHI5Spbzr4",
+    authDomain: "treinazap-cobrador.firebaseapp.com",
+    projectId: "treinazap-cobrador",
+    storageBucket: "treinazap-cobrador.appspot.com",
+    messagingSenderId: "129393318987",
+    appId: "1:129393318987:web:8b9ed628aaf467c6c101ce"
 };	
 
 const firebaseApp = firebase.initializeApp(firebaseConfig);	
