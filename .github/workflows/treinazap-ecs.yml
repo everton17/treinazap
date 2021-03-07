@@ -48,6 +48,6 @@ jobs:
           docker build -t treinazap .
           docker tag treinazap:latest $ECR_REPOSITORY:latest
           docker push $ECR_REPOSITORY:latest
-#          aws ecs update-service --cluster unicorniostech --service treinazap --force-new-deployment --region us-east-1
-#      - name: CLEAR CACHE
-#        run: AWS_ACCESS_KEY_ID=${ACCESS_KEY} AWS_SECRET_ACCESS_KEY=${SECRET_KEY} aws cloudfront create-invalidation --distribution-id EWQ492LREPCT6 --path '/*'
+          aws ecs update-service --cluster unicornios --service treinazappapa --force-new-deployment --region us-east-1
+      - name: CLEAR CACHE
+        run: AWS_ACCESS_KEY_ID=${ACCESS_KEY} AWS_SECRET_ACCESS_KEY=${SECRET_KEY} aws cloudfront create-invalidation --distribution-id EWQ492LREPCT6 --path '/*'
