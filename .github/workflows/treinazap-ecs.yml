@@ -28,7 +28,7 @@ jobs:
 #      - name: BAIXANDO SONAR
 #        run: wget https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-4.6.0.2311-linux.zip && unzip sonar-scanner-cli-4.6.0.2311-linux.zip
 #      - name: ANALYSYS CODE
-        run: ./sonar-scanner-4.6.0.2311-linux/bin/sonar-scanner -Dsonar.projectKey=treinazap -Dsonar.sources=. -Dsonar.host.url=http://sonar.labinfra.tk/ -Dsonar.login=71377e83d0ac80e478a8f50dc0aa1cd4615806cc
+#        run: ./sonar-scanner-4.6.0.2311-linux/bin/sonar-scanner -Dsonar.projectKey=treinazap -Dsonar.sources=. -Dsonar.host.url=http://sonar.labinfra.tk/ -Dsonar.login=71377e83d0ac80e478a8f50dc0aa1cd4615806cc
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v1
         with:
