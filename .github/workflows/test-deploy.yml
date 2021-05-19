@@ -11,5 +11,4 @@ jobs:
       - uses: actions/setup-node@v1
         with:
     	    node-version: 14.16.0
-      - name: INSTALL E BUILD
-        run: npm install && npm run build
+      - run: npm install && npm run build
